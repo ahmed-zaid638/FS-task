@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // or ES6
+    "module": "CommonJS",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "moduleDetection": "force"
+
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules"]
+}
