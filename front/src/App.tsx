@@ -11,7 +11,7 @@ function App() {
         <div className="bg-gray-50 w-full px-4">
           <Header />
           <Routes>
-            <Route path="/dashboard" element={<Dashboard />} />
+            <Route path="/" element={<Dashboard />} />
           </Routes>
         </div>
       </div>
